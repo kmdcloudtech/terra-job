@@ -5,7 +5,7 @@ resource "aws_instance" "jenkins-demo" {
     key_name = "jenkins-key"
 
     tags = {
-      "Name" = "myserver"
+      "Name" = "self"
       
     }
   
