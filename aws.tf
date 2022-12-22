@@ -3,6 +3,7 @@ resource "aws_instance" "jenkins-demo" {
     instance_type = "t2.micro"
     count = "1"
     key_name = "jenkins-key"
+    #another key = "value"
 
     tags = {
       "Name" = "self"
